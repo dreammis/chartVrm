@@ -142,10 +142,10 @@ export const Settings = ({
                   onClick={() => setVRM("/AvatarSample_B.vrm")}
                 />
                 <img
-                  src={buildUrl("/demo-C.png")}
+                  src={buildUrl("/firststar-hateno_v1.png")}
                   alt="demo-C"
                   className="mx-[1%] w-[22%] cursor-pointer rounded-16  transition-all hover:translate-y-[-8px]"
-                  onClick={() => setVRM("/AvatarSample_C.vrm")}
+                  onClick={() => setVRM("/firststar-hateno_v1.vrm")}
                 />
                 <img
                   src={buildUrl("/demo-D.png")}

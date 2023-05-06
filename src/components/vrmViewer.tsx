@@ -11,8 +11,9 @@ export default function VrmViewer() {
     if (canvas) {
       viewer.setup(canvas);
 
-      const vrm = localStorage.getItem("chatvrm_vrm") ?? "/AvatarSample_A.vrm";
-      viewer.loadVrm(CDNUrl(vrm));
+      // const vrm = localStorage.getItem("chatvrm_vrm") ?? "/firststar-hateno_v1.vrm";
+      viewer.loadVrm(buildUrl("/firststar-hateno_v1.vrm"));
+      // viewer.loadVrm(CDNUrl(vrm));
 
       function handleDragOver(event: DragEvent) {
         event.preventDefault();

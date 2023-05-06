@@ -221,7 +221,7 @@ export default function Home() {
           onChangeChatLog={handleChangeChatLog}
           onChangeKoeiromapParam={setKoeiroParam}
         />
-        <GitHubLink />
+        {/*<GitHubLink />*/}
       </div>
     </I18nProvider>
   );
